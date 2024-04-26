@@ -41,16 +41,7 @@
             </div>
           </div>
   
-         <!-- Guides -->
-            <div class="col-md-4">
-              <div class="box p-7 ">
-               <img src="{{ asset('images/guides.svg')}}">  
-               <h1 class="mt-20 d-flex justify-left text-4xl">Guides</h1>
-                <p class="text-xl font-light mt-3"> Efficiently use every feature with our user-friendly website guide.</p>
-                <button type="button" class="btn btn-warning rounded w-100 p-40 mt-10">View Guides</button>
-              </div>
-            </div>
-      
+         <!-- Guides -->~
  
          </div>
         </div>
