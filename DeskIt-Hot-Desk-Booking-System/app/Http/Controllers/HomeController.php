@@ -13,8 +13,8 @@ class HomeController extends Controller
     }
 
    
-    public function notif(): View {
-        return view('home.notif');
+    public function support(): View {
+        return view('home.support');
     }
 
     public function getUserBookings($userId) {

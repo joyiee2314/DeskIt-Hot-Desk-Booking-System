@@ -140,7 +140,7 @@ Route::middleware('auth')->group(function () {
 
 /** HOME Routes */
 Route::middleware(['auth', 'role:employee', 'verified'])->group(function () {
-    Route::get('/notification', [HomeController::class,'notif'])->name('notif');
+    Route::get('/support', [HomeController::class,'support'])->name('support');
     Route::get('/user/bookings/{userId}', [HomeController::class, 'getUserBookings'])->name('user.bookings');
 });
 
